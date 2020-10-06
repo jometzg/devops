@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'f21bf306-5db9-43cc-b1c4-52957295728d'
-  imageRepository: 'jometzgdevopspoi3'
+  imageRepository: 'jometzgdevops/api-poi'
   containerRegistry: 'openhackq956m529acr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/apis/poi/web/Dockerfile'
   tag: '$(Build.BuildId)'
