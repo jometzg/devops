@@ -3,7 +3,12 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-- openhack_refresh
+  branches:
+    include:
+      - openhack_refresh
+  paths:
+    include:
+      - apis/poi/*
 
 resources:
 - repo: self
