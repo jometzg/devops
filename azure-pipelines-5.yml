@@ -12,7 +12,7 @@ trigger:
       - apis/poi/*
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
